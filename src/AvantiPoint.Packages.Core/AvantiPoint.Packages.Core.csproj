@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    <PackageTags>NuGet</PackageTags>
+    <Description>The core libraries that power AvantiPoint.Packages.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+    <PackageReference Include="NuGet.Packaging" />
+    <PackageReference Include="System.Reflection.Metadata" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AvantiPoint.Packages.Protocol\AvantiPoint.Packages.Protocol.csproj" />
+  </ItemGroup>
+
+</Project>

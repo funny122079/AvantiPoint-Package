@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    <PackageTags>NuGet</PackageTags>
+    <Description>The libraries to host AvantiPoint.Packages on MySQL.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AvantiPoint.Packages.Core\AvantiPoint.Packages.Core.csproj" />
+  </ItemGroup>
+
+</Project>

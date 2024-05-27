@@ -1,0 +1,9 @@
+bin/
+obj/
+packages/
+symbols/
+.vs/
+Artifacts/
+site/
+
+appsettings.*.json
